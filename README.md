@@ -10,5 +10,5 @@ Storage            WD Black SN770 500GB
 Monitor            FHD 1920x1080 240GHz
 BIOS Verison       E16V1IMS.112
 macOS Version      Ventura 13.0
-OpenCore Version   0.8.5
+OpenCore Version   0.8.6
 ```
