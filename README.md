@@ -1,6 +1,6 @@
 # Hackintosh OpenCore EFI for MSI GS66
 ```
-Model              MSI GS66
+Model              MSI GS66 Stealth 10SE
 CPU                Intel Core i7-10750H
 Memory             16GB DDR4 2933MHz
 Graphics           Intel UHD Graphics 630
