@@ -1002,19 +1002,10 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
-			<dict>
-				<key>revpatch</key>
-				<string>auto,sbvmm,cpuname</string>
-				<key>revcpu</key>
-				<integer>1</integer>
-				<key>revcpuname</key>
-				<string>Intel Core i7-10750H</string>
-			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>amfi=0x80 ipc_control_port_options=0 alcid=11 -igfxblt</string>
+				<string>-amfipass ipc_control_port_options=0 alcid=11 -igfxblt</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
@@ -1025,6 +1016,15 @@
 				<data>AA==</data>
 				<key>bluetoothInternalControllerInfo</key>
 				<data>AAAAAAAAAAAAAAAAAAA=</data>
+			</dict>
+			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
+			<dict>
+				<key>revpatch</key>
+				<string>auto,sbvmm,cpuname</string>
+				<key>revcpu</key>
+				<integer>1</integer>
+				<key>revcpuname</key>
+				<string>Intel Core i7-10750H</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
