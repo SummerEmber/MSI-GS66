@@ -1049,7 +1049,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02950600J9N9PRFB</string>
+			<string></string>
 			<key>ProcessorType</key>
 			<integer>1547</integer>
 			<key>ROM</key>
@@ -1098,9 +1098,9 @@
 			<key>ChassisVersion</key>
 			<string>Mac-E1008331FDC96864</string>
 			<key>FirmwareFeatures</key>
-			<data>ZvCv/QgAAAA=</data>
+			<data></data>
 			<key>FirmwareFeaturesMask</key>
-			<data>f////wgAAAA=</data>
+			<data></data>
 			<key>PlatformFeature</key>
 			<integer>50</integer>
 			<key>ProcessorType</key>
