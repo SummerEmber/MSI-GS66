@@ -164,6 +164,11 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+			<dict>
+				<key>layout-id</key>
+				<integer>11</integer>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
@@ -174,8 +179,6 @@
 				<data>AP///////wBNEMUUAAAAAAkdAQSlIhN4B95Qo1RMmSYPUFQAAAABAQEBAQEBAQEBAQEBAQEBUNCAUHA4H0AYKDUAWMIQAAAYFDSAUHA4H0AYIDUAWMIQAAAYAAAAEAAAAAAAAAAAAAAAAAAAAAAA/ABMUTE1Nk0xSlcwMwogAOQ=</data>
 				<key>device-id</key>
 				<data>mz4AAA==</data>
-				<key>disable-external-gpu</key>
-				<data>AQAAAA==</data>
 				<key>framebuffer-fbmem</key>
 				<data>AACQAA==</data>
 				<key>framebuffer-patch-enable</key>
@@ -390,7 +393,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/USBToolBox</string>
 				<key>MaxKernel</key>
@@ -404,29 +407,11 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>USBPorts.kext</string>
+				<string>USBMap.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
-				<string>UTBDefault.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -972,7 +957,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-amfipass keepsyms=1 ipc_control_port_options=0 alcid=11 -igfxblt -wegnoegpu</string>
+				<string>-amfipass keepsyms=1 ipc_control_port_options=0</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
@@ -1047,7 +1032,7 @@
 			<key>BoardManufacturer</key>
 			<string></string>
 			<key>BoardProduct</key>
-			<string>Mac-E1008331FDC96864</string>
+			<string></string>
 			<key>BoardSerialNumber</key>
 			<string></string>
 			<key>BoardType</key>
@@ -1063,7 +1048,7 @@
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
-			<string>Mac-E1008331FDC96864</string>
+			<string></string>
 			<key>FirmwareFeatures</key>
 			<data></data>
 			<key>FirmwareFeaturesMask</key>
@@ -1083,9 +1068,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string></string>
+			<string>C02YM09AMD6N</string>
 			<key>SystemUUID</key>
-			<string></string>
+			<string>ECFDC81E-CC4E-4E6A-9648-CD119A6C119D</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
