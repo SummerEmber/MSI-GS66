@@ -10,7 +10,7 @@ Wi-Fi              Intel AX201NGW
 Storage            Intel 760P 512GB
 Monitor            FHD 1920x1080 240GHz
 BIOS Verison       E16V1IMS.112
-macOS Version      Tahoe 26.7.1
+macOS Version      Tahoe 26.7.2
 OpenCore Version   1.0.8
 ```
 ## BIOS Settings
