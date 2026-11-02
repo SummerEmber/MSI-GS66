@@ -14,7 +14,7 @@ macOS Version      Tahoe 26.7.2
 OpenCore Version   1.0.8
 ```
 ## BIOS Settings
-Enter Advanced BIOS Mode: Left Alt + F2 + Right Ctrl + Right Shift
+Enter Advanced BIOS Mode: Right Ctrl + Right Shift + Left Alt + F2
 ### Advanced
 ```
 Intel Virtualization Technology [Enabled]
