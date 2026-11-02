@@ -1,4 +1,5 @@
 # Hackintosh OpenCore EFI for MSI GS66
+## Specifications
 ```
 Model              MSI GS66 Stealth 10SE
 CPU                Intel Core i7-10750H
@@ -12,3 +13,4 @@ BIOS Verison       E16V1IMS.112
 macOS Version      Tahoe 26.7.1
 OpenCore Version   1.0.8
 ```
+## BIOS Settings
