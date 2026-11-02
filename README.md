@@ -14,3 +14,13 @@ macOS Version      Tahoe 26.7.2
 OpenCore Version   1.0.8
 ```
 ## BIOS Settings
+Enter Advanced BIOS Mode: Left Alt + F2 + Right Ctrl + Right Shift
+### Advanced
+```
+Intel Virtualization Technology [Enabled]
+VT-d [Enabled]
+MSI VGA MODE [MS-Hybrid MODE]
+Power & Performance - CPU - CFG Lock Configuration - CFG Lock [Disabled]
+USB Configuration - Legacy USB Support [Disabled]
+CSM Configuration - CSM Support [Disabled]
+```
