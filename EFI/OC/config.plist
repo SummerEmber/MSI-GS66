@@ -48,7 +48,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>_OSI→XOSI 补丁配套</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -951,6 +951,11 @@
 				<key>bluetoothInternalControllerInfo</key>
 				<data>AAAAAAAAAAAAAAAAAAA=</data>
 			</dict>
+			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
+			<dict>
+				<key>revpatch</key>
+				<string>sbvmm</string>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -976,7 +981,7 @@
 			<key>MLB</key>
 			<string></string>
 			<key>ProcessorType</key>
-			<integer>1793</integer>
+			<integer>1792</integer>
 			<key>ROM</key>
 			<data></data>
 			<key>SpoofVendor</key>
@@ -1005,7 +1010,7 @@
 			<key>BoardManufacturer</key>
 			<string></string>
 			<key>BoardProduct</key>
-			<string>Mac-E1008331FDC96864</string>
+			<string></string>
 			<key>BoardSerialNumber</key>
 			<string></string>
 			<key>BoardType</key>
@@ -1021,7 +1026,7 @@
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
-			<string>Mac-E1008331FDC96864</string>
+			<string></string>
 			<key>FirmwareFeatures</key>
 			<data>ZvCv/QgAAAA=</data>
 			<key>FirmwareFeaturesMask</key>
@@ -1029,7 +1034,7 @@
 			<key>PlatformFeature</key>
 			<integer>50</integer>
 			<key>ProcessorType</key>
-			<integer>1793</integer>
+			<integer>1792</integer>
 			<key>SmcVersion</key>
 			<data></data>
 			<key>SystemFamily</key>
