@@ -8,7 +8,7 @@ Graphics           Intel UHD Graphics 630
 Audio              Realtek ALC298
 Wi-Fi              Intel AX201NGW
 Storage            Intel 760P 512GB
-Monitor            FHD 1920x1080 240GHz
+Monitor            FHD 1920x1080 240Hz
 BIOS Verison       E16V1IMS.112
 macOS Version      Tahoe 26.7.2
 OpenCore Version   1.0.8
