@@ -371,24 +371,6 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
-				<string>USBToolBox.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/USBToolBox</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>BundlePath</key>
 				<string>USBMap.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -1147,6 +1129,8 @@
 				<true/>
 				<key>LoadEarly</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>Path</key>
 				<string>OpenHfsPlus.efi</string>
 			</dict>
@@ -1158,6 +1142,8 @@
 				<key>Enabled</key>
 				<true/>
 				<key>LoadEarly</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>Path</key>
 				<string>OpenCanopy.efi</string>
@@ -1171,6 +1157,8 @@
 				<true/>
 				<key>LoadEarly</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
 			</dict>
@@ -1183,20 +1171,10 @@
 				<true/>
 				<key>LoadEarly</key>
 				<false/>
-				<key>Path</key>
-				<string>ResetNvramEntry.efi</string>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>LoadEarly</key>
+				<key>HideVerbose</key>
 				<false/>
 				<key>Path</key>
-				<string>ToggleSipEntry.efi</string>
+				<string>ResetNvramEntry.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>
